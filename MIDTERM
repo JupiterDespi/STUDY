@@ -1,0 +1,47 @@
+public class MainRosterEmployee{
+
+public static void main (String[] args){
+RosterEmployee employee = new RosterEmployee();
+
+employee.setAccount("emp001");
+employee.setLastName("Solitana");
+employee.setFirstName("Jeric Nino");
+
+System.out.println("Employee Account: "+ employee.getAccount() + " , Last Name: " + employee.getLastName() + " , First Name: "+ employee.getFirstName());
+
+}
+}
+
+public class RosterEmployee{
+
+private String account;
+private String lastName;
+private String firstName;
+
+public RosterEmployee(){
+ this.account = account;
+ this.lastName = lastName;
+ this.firstName = firstName;
+}
+
+public String getAccount(){
+return account;
+}
+public String getLastName(){
+return lastName;
+}
+public String getFirstName(){
+return firstName;
+}
+
+public void setAccount(String account){
+this.account = account;
+}
+public void setLastName(String lastName){
+this.lastName = lastName;
+}
+public void setFirstName(String firstName){
+this.firstName = firstName;
+}
+
+}
